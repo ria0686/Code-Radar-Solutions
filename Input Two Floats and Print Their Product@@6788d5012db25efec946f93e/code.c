@@ -2,7 +2,7 @@
 
 
 
-float main() {
+int main() {
     float a,b;
     float prod;
     scanf("%f %f",&a,&b);
