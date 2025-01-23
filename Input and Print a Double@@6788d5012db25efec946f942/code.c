@@ -4,7 +4,7 @@
 
 int main() {
     double a;
-    scanf("%lf",&a)
+    scanf("%lf",&a);
     printf("%.4lf", a);
     return 0;
 }
