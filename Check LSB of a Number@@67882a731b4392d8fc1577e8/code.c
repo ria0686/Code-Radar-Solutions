@@ -6,7 +6,8 @@ int main() {
     int a;
     if(a&1==1)
     printf("Set");
-    else
+    else{
     printf("Not Set");
+    }
     return 0;
 }
