@@ -8,7 +8,7 @@ int main() {
     
     int lowestSetBit = num & -num;  
     
-    printf("%d" lowestSetBit);
+    printf("%d",lowestSetBit);
     
     return 0;
 }
