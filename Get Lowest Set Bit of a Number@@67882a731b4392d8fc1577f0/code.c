@@ -2,10 +2,7 @@
 
 int main() {
     int num,count=0;
-    
-    
     scanf("%d", &num);
-    
     while(num!=0)
     {
         a=a>>1;
@@ -15,8 +12,6 @@ int main() {
         }
         count++;
     }
-    
     printf("%d",count);
-    
     return 0;
 }
