@@ -7,9 +7,7 @@ int main(){
   if(a==0)
   {
     count=0;
-  } 
-  else
-  {
+  }
     while(a!=0){
         if(a==1)
         {
@@ -17,7 +15,6 @@ int main(){
         }
         a = a>>1;
         count++;
-    }
   } 
   printf("%d",32-count);
   return 0;
