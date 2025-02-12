@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 int main(){
-  int a,count = 1;
-  scanf("%d",&a);
+  unsigned int a,count = 1;
+  scanf("%lu",&a);
   if(a==0)
   {
     count=0;
