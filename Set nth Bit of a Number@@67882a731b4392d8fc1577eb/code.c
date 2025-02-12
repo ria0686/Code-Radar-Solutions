@@ -5,8 +5,6 @@ int main()
 {
     int a,b,c,d;
     scanf("%d %d",&a,&b);
-    c=1<<b;
-    d=a^c;
-    printf("%d",d);
+    printf("%d",a^(1<<b));
     return 0;
 }
