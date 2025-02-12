@@ -5,8 +5,8 @@ int main() {
     scanf("%d", &num);
     while(num!=0)
     {
-        a=a>>1;
-        if(a&1==1)
+        num=num>>1;
+        if(num&1==1)
         {
             break;
         }
