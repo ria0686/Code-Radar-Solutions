@@ -11,12 +11,12 @@ int main(){
   else
   {
     while(a!=0){
+        count++;
         if(a|1==1)
         {
             break;
         }
         a = a>>1;
-        count++;
     }
   } 
   printf("%d",32-count);
