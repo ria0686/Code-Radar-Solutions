@@ -11,7 +11,7 @@ int main(){
   else
   {
     while(a!=0){
-        if(a|1==1)
+        if(a==1)
         {
             break;
         }
