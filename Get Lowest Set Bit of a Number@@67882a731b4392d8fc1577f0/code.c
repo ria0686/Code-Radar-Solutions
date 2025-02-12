@@ -11,7 +11,7 @@ int main() {
         a=a>>1;
         if(a&1==1)
         {
-            count+=1
+            count+=1;
         }
     }
     
