@@ -19,6 +19,6 @@ int main(){
         count++;
     }
   } 
-  printf("%d",count);
+  printf("%d",32-count);
   return 0;
 }
