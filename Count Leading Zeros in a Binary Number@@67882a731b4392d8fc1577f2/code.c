@@ -4,7 +4,7 @@
 int main(){
   int a,count = 1;
   scanf("%d",&a);
-  if(a=0)
+  if(a==0)
   {
     count=0;
   } 
