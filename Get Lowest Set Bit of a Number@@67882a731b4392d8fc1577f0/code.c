@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num,count;
+    int num,count=0;
     
     
     scanf("%d", &num);
@@ -11,8 +11,9 @@ int main() {
         a=a>>1;
         if(a&1==1)
         {
-            count+=1;
+            break;
         }
+        count++;
     }
     
     printf("%d",count);
