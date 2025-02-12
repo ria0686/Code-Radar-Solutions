@@ -1,14 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num,count;
     
     
     scanf("%d", &num);
     
-    int lowestSetBit = num & -num;  
+    while(num!=0)
+    {
+        a=a>>1;
+        if(a&1==1)
+        {
+            count+=1
+        }
+    }
     
-    printf("%d",num);
+    printf("%d",count);
     
     return 0;
 }
