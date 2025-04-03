@@ -7,10 +7,10 @@ int main()
     scanf("%d %d %c",&a,&b,&c);
     switch(c)
     {
-        case '+':print("%d",a+b);break;
-        case '-':print("%d",a-b);break;
-        case '*':print("%d",a*b);break;
-        case '/':print("%d",a/b);break;
+        case '+':printf("%d",a+b);break;
+        case '-':printf("%d",a-b);break;
+        case '*':printf("%d",a*b);break;
+        case '/':printf("%d",a/b);break;
         
     }
 }
