@@ -19,7 +19,7 @@ int main()
         case 10: printf("%d",31);break;
         case 11: printf("%d",30);break;
         case 12: printf("%d",31);break;
-        default:printf("Invalid");
+        default:printf("Invalid month");
 
     }
 }
