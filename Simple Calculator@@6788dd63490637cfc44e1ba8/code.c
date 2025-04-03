@@ -12,7 +12,7 @@ int main()
         case '*':printf("%d",a*b);break;
         case '/':
             if (b == 0) 
-                printf("Error: Division by zero is not allowed");
+                printf("error");
             else 
                 printf("%d", a / b);
             break;
